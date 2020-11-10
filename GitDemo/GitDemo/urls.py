@@ -22,6 +22,7 @@ from django.conf import settings
 urlpatterns = [
     path('', views.IndexView.as_view(), name="index"),
     path('another/', views.AnotherView.as_view(), name="another"),
+    path('third/', views.ThirdView.as_view(), name="third"),
     path('admin/', admin.site.urls),
 ]
 

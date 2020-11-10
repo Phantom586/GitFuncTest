@@ -10,3 +10,8 @@ class IndexView(TemplateView):
 class AnotherView(TemplateView):
 
     template_name = 'BaseApp/another.html'
+
+
+class ThirdView(TemplateView):
+
+    template_name = 'BaseApp/third.html'
