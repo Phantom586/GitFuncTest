@@ -19,5 +19,6 @@ from BaseApp import views
 
 urlpatterns = [
     path('', views.IndexView.as_view(), name="index"),
+    path('another/', views.AnotherView.as_view(), name="another"),
     path('admin/', admin.site.urls),
 ]

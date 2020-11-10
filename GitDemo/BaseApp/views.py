@@ -5,3 +5,8 @@ from django.views.generic import TemplateView
 class IndexView(TemplateView):
 
     template_name = 'BaseApp/index.html'
+
+
+class AnotherView(TemplateView):
+
+    template_name = 'BaseApp/another.html'
